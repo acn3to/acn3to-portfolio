@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="favicon.ico?" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Arnaldo Neto's Portfolio</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://github.com/acn3to" class="link" target="_blank"
+          >ACN.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>
+          Hi,
+          <img
+            src="https://raw.githubusercontent.com/kaueMarques/kaueMarques/master/hi.gif"
+            width="60px"
+            alt="Handshake"
+          />
+          I am <span class="about__name">Arnaldo Neto.</span>
+        </h1>
+        <h2 class="about__role">A Full Stack Developer.</h2>
+        <p class="about__desc">
+          I'm a continuous and dedicated Full Stack Development Student, adept
+          at the concept of
+          <a
+            href="https://www.valamis.com/hub/lifelong-learning"
+            target="_blank"
+            >#LifelongLearning.</a
+          >
+          I want to develop ideas and make them real, with the posible ability
+          to build usable and scalable applications that makes a difference in
+          the world. <br /><br />
+          "There is never enough knowledge, and all experiences are valid."
+        </p>
+
+        <div class="about__contact center">
+          <a href="https://acn3to.github.io/acn3to-resume/" target="_blank">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/acn3to"
+            aria-label="github"
+            class="link link--icon"
+            target="_blank"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/arnaldo-n3to/"
+            aria-label="linkedin"
+            class="link link--icon"
+            target="_blank"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Sign in & Sign up Form</h3>
+            <p class="project__description">
+              A responsive HTML, CSS and JavaScript login and registration form
+              page inspired on Dragon Ball Super.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">JavaScript</li>
+            </ul>
+
+            <a
+              href="https://github.com/acn3to/registration-login-form"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://acn3to.github.io/registration-login-form/"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Pong Game</h3>
+            <p class="project__description">
+              A Pong game developed with p5.js library.<br /><br />
+              ⚠️ Project not finished yet.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">JavaScript</li>
+            </ul>
+
+            <a
+              href="https://github.com/acn3to/javascript-pong"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://acn3to.github.io/javascript-pong/"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Project 3</h3>
+            <p class="project__description">
+              Space reserved for a future project.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item"></li>
+              <li class="project__stack-item"></li>
+              <li class="project__stack-item"></li>
+            </ul>
+
+            <a href="#" aria-label="source code" class="link link--icon">
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a href="#" aria-label="live preview" class="link link--icon">
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Hard Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">SCSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">TypeScript</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">Node</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">PostgreSQL</li>
+        </ul>
+      </section>
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Soft Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">Good Communication</li>
+          <li class="skills__list-item btn btn--plain">Creativity</li>
+          <li class="skills__list-item btn btn--plain">Empathy</li>
+          <li class="skills__list-item btn btn--plain">Adaptability</li>
+          <li class="skills__list-item btn btn--plain">
+            Emotional Intelligence
+          </li>
+          <li class="skills__list-item btn btn--plain">Problem-solving</li>
+          <li class="skills__list-item btn btn--plain">Atention to detail</li>
+          <li class="skills__list-item btn btn--plain">Teamwork</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:costanetoow@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/acn3to"
+        class="link footer__link"
+        target="_blank"
+      >
+        Created By Arnaldo Neto
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
